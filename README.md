@@ -109,6 +109,15 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
+<img width="1919" height="898" alt="image" src="https://github.com/user-attachments/assets/778c756b-202a-45d4-acd4-b9763c05bc19" />
+
+<img width="1886" height="864" alt="image" src="https://github.com/user-attachments/assets/03628b8c-8837-4066-8087-de9a3fdb9ea1" />
+
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/e2ee2ad2-34b4-46be-a6b9-937bdd62e8cd" />
+
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/3875a93c-f601-4b9e-a228-1cb1946e816f" />
+
+
 ## 🤖 How It Works
 
 ### Application Flow
