@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: talentscout-ai
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false          # set manually in Render dashboard — never committed
+      - key: GROQ_FAST_MODEL
+        value: llama-3.1-8b-instant
+      - key: GROQ_SMART_MODEL
+        value: llama-3.3-70b-versatile
+      - key: TEMPERATURE
+        value: "0.7"
+      - key: MAX_TOKENS
+        value: "512"
+      - key: MAX_HISTORY_TURNS
+        value: "5"
+      - key: DEBUG
+        value: "false"

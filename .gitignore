@@ -1,0 +1,32 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit — keep config.toml, exclude secrets only
+.streamlit/secrets.toml
+
+# Candidate data (runtime-generated, not for version control)
+data/candidates_session.json
+
+# OS
+.DS_Store
+Thumbs.db
