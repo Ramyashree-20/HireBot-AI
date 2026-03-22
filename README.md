@@ -251,28 +251,6 @@ Candidate ID is derived from MD5 of their email — ensures idempotent saves on 
 
 ---
 
-## 🌐 Deploy to Render
-
-The project ships with `render.yaml` for one-click deployment.
-
-### Steps
-
-1. Push this repo to GitHub
-2. Go to [render.com](https://render.com) → **New → Web Service** → connect your repo
-3. Render auto-detects `render.yaml` — click **Apply**
-4. In the Render dashboard → **Environment** tab, add:
-   ```
-   GROQ_API_KEY = gsk_...your_key...
-   ```
-   (All other env vars are pre-set in `render.yaml`)
-5. Click **Deploy**
-
-Your app will be live at `https://talentscout-ai.onrender.com`.
-
-> **Note:** The free Render tier spins down after 15 min of inactivity. The first request after that takes ~30 s to wake up.
-
----
-
 ## 📦 Dependencies
 
 ```
